@@ -1,4 +1,5 @@
 export type Bowler = {
+  team: any;
   bowlerId: number;
   bowlerLastName: string;
   bowlerFirstName: string;
@@ -9,5 +10,6 @@ export type Bowler = {
   bowlerZip: string;
   bowlerPhoneNumber: string;
   teamId: number;
+  teamName: string;
   // bowlerScores?
 };

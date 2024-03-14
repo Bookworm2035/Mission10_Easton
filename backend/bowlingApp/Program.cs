@@ -14,10 +14,10 @@ builder.Services.AddCors();
 
 
 builder.Services.AddDbContext<BowlingLeagueContext>(options =>
-    options.UseSqlite(builder.Configuration["ConnecctionStrings:BowlerConnection"])
+    options.UseSqlite(builder.Configuration["ConnectionStrings:BowlerConnection"])
     );
 
-builder.Services.AddScoped<IBowlerRepository, IBowlerRepository>();
+builder.Services.AddScoped<IBowlerRepository, EFBowlerRepository>();
 
 var app = builder.Build();
 

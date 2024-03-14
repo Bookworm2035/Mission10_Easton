@@ -6,7 +6,7 @@ function BowlerList() {
 
   useEffect(() => {
     const fetchBowlerData = async () => {
-      const rsp = await fetch('http://localhost:PUT LINKE HERE');
+      const rsp = await fetch('http://localhost:5265/Bowler');
       const f = await rsp.json();
       setBowlerData(f);
     };
@@ -17,7 +17,8 @@ function BowlerList() {
   return (
     <>
       <div className="row">
-        <h4 className="text-center">Bowler Team</h4>
+        <h4 className="text-center">Bowling League Data</h4>
+        <div></div>
       </div>
       <table className="table table-bordered">
         <thead>
@@ -37,8 +38,7 @@ function BowlerList() {
               <td>
                 {f.bowlerFirstName} {f.bowlerMiddleInit} {f.bowlerLastName}
               </td>
-              <td>{f.teamId}</td>
-              {/* this will need to be pulled from the foreign key */}
+              <td>{f.team.teamName}</td>
               <td>{f.bowlerAddress}</td>
               <td>{f.bowlerCity}</td>
               <td>{f.bowlerState}</td>

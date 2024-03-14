@@ -24,7 +24,6 @@ C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.bowlingApp.props
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\scopedcss\bundle\bowlingApp.styles.css
-C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\bowlingApp.csproj.CopyComplete
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\bowlingApp.dll
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\refint\bowlingApp.dll
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\bowlingApp.pdb
@@ -125,3 +124,5 @@ C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\bin\Debug\net8.0
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\bowlingApp.sourcelink.json
+C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\bowlingApp.csproj.Up2Date
