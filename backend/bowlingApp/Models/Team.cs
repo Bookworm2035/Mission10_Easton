@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace bowlingApp.Models;
 
 public partial class Team
 {
-    public int TeamId { get; set; }
+    [Key]
+    public int TeamID { get; set; }
 
-    public string TeamName { get; set; } = null!;
+    [Required]
+    public string TeamName { get; set; } = "";
 
-    public int? CaptainId { get; set; }
+    public int? CaptainID { get; set; }
 
     //public virtual ICollection<Bowler> Bowlers { get; set; } = new List<Bowler>();
 

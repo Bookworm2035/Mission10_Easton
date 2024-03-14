@@ -1,6 +1,7 @@
+import { Team } from './Team';
+
 export type Bowler = {
-  team: any;
-  bowlerId: number;
+  bowlerID: number;
   bowlerLastName: string;
   bowlerFirstName: string;
   bowlerMiddleInit: string;
@@ -9,7 +10,7 @@ export type Bowler = {
   bowlerState: string;
   bowlerZip: string;
   bowlerPhoneNumber: string;
-  teamId: number;
-  teamName: string;
+  teamID: number;
+  team: Team;
   // bowlerScores?
 };

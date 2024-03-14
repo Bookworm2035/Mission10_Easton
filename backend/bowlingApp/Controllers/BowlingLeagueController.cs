@@ -18,25 +18,27 @@ namespace bowlingApp.Controllers
         public IEnumerable<Bowler> Get()
         {
 
-            var joinedData = from bowler in _bowlerRepository.Bowlers
-                             join team in _bowlerRepository.Teams
-                             on bowler.TeamId equals team.TeamId
-                             select new Bowler
-                             {
-                                 BowlerId = bowler.BowlerId,
-                                 BowlerLastName = bowler.BowlerLastName,
-                                 BowlerFirstName = bowler.BowlerFirstName,
-                                 BowlerMiddleInit = bowler.BowlerMiddleInit,
-                                 BowlerAddress = bowler.BowlerAddress,
-                                 BowlerCity = bowler.BowlerCity,
-                                 BowlerState = bowler.BowlerState,
-                                 BowlerZip = bowler.BowlerZip,
-                                 BowlerPhoneNumber = bowler.BowlerPhoneNumber,
-                                 TeamName = team.TeamName
-                             };
-      
+            //var joinedData = from bowler in _bowlerRepository.Bowlers
+            //                 join team in _bowlerRepository.Teams
+            //                 on bowler.TeamId equals team.TeamId
+            //                 select new Bowler
+            //                 {
+            //                     BowlerId = bowler.BowlerId,
+            //                     BowlerLastName = bowler.BowlerLastName,
+            //                     BowlerFirstName = bowler.BowlerFirstName,
+            //                     BowlerMiddleInit = bowler.BowlerMiddleInit,
+            //                     BowlerAddress = bowler.BowlerAddress,
+            //                     BowlerCity = bowler.BowlerCity,
+            //                     BowlerState = bowler.BowlerState,
+            //                     BowlerZip = bowler.BowlerZip,
+            //                     BowlerPhoneNumber = bowler.BowlerPhoneNumber,
+            //                     TeamName = team.TeamName
+            //                 };
 
-            return joinedData.ToList();
+
+            return _bowlerRepository.Bowlers.ToArray();
+                
+                //joinedData.ToList();
             //var teamAndBowlers = _bowlerRepository.Teams
             //    //.Include(t => t.Bowlers) // Include Bowlers related to the Team
             //    .SelectMany(team => team.Bowlers) // Flatten the query to get Bowlers directly

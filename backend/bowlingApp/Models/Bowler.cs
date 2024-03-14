@@ -6,7 +6,7 @@ namespace bowlingApp.Models;
 
 public partial class Bowler
 {
-    public int BowlerId { get; set; }
+    public int BowlerID { get; set; }
 
     public string? BowlerLastName { get; set; }
 
@@ -23,13 +23,13 @@ public partial class Bowler
     public string? BowlerZip { get; set; }
 
     public string? BowlerPhoneNumber { get; set; }
+    //join tables
 
-    [ForeignKey("TeamID")]
+    [ForeignKey("Team")]
 
-    public int? TeamId { get; set; }
+    public int? TeamID { get; set; }
 
     //public virtual ICollection<BowlerScore> BowlerScores { get; set; } = new List<BowlerScore>();
 
     public Team? Team { get; set; }
-    public string? TeamName {  get; set; }
 }

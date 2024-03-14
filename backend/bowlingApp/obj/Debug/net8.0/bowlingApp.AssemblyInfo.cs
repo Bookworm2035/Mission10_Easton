@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bowlingApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b47afb76ea72ce409a713c302372096d88f8048")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b41a822f3016421819c62d0ad51a18342c061a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("bowlingApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bowlingApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

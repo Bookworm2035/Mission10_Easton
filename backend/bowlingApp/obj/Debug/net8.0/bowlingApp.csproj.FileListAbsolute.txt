@@ -125,4 +125,4 @@ C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\bin\Debug\net8.0
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\bowlingApp.sourcelink.json
-C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\bowlingApp.csproj.Up2Date
+C:\Users\12089\source\repos\Mission10_Easton\backend\bowlingApp\obj\Debug\net8.0\bowlingApp.csproj.CopyComplete

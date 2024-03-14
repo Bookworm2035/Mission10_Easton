@@ -13,10 +13,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddCors();
 
 
+//set up conection string
+
 builder.Services.AddDbContext<BowlingLeagueContext>(options =>
     options.UseSqlite(builder.Configuration["ConnectionStrings:BowlerConnection"])
     );
 
+//repo pattern 
 builder.Services.AddScoped<IBowlerRepository, EFBowlerRepository>();
 
 var app = builder.Build();

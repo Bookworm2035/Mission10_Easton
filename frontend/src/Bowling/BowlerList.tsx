@@ -6,7 +6,7 @@ function BowlerList() {
 
   useEffect(() => {
     const fetchBowlerData = async () => {
-      const rsp = await fetch('http://localhost:5265/Bowler');
+      const rsp = await fetch('http://localhost:5265/api/BowlingLeague');
       const f = await rsp.json();
       setBowlerData(f);
     };
@@ -34,7 +34,7 @@ function BowlerList() {
         </thead>
         <tbody>
           {bowlerData.map((f) => (
-            <tr key={f.bowlerId}>
+            <tr key={f.bowlerID}>
               <td>
                 {f.bowlerFirstName} {f.bowlerMiddleInit} {f.bowlerLastName}
               </td>

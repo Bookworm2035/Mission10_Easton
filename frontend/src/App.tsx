@@ -17,6 +17,7 @@ import BowlerList from './Bowling/BowlerList';
 // function GoLevel(props: any) {
 //   return <label>Amount of Go: {props.numToShow}</label>;
 // }
+
 // function Welcome() {
 //   return <h1>Hey welcome friend</h1>;
 // }

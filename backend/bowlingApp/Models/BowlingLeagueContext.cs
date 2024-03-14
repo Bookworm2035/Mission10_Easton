@@ -7,20 +7,25 @@ namespace bowlingApp.Models;
 public partial class BowlingLeagueContext : DbContext
 {
 
+    //connect to the DB :) 
     public BowlingLeagueContext(DbContextOptions<BowlingLeagueContext> options)
         : base(options)
     {
     }
 
+    //get bowlers and teams
     public DbSet<Bowler> Bowlers { get; set; }
 
-    //public virtual DbSet<BowlerScore> BowlerScores { get; set; }
-
-    //public virtual DbSet<MatchGame> MatchGames { get; set; }
-
     public DbSet<Team> Teams { get; set; }
+
 }
-    //public virtual DbSet<Tournament> Tournaments { get; set; }
+
+//public virtual DbSet<BowlerScore> BowlerScores { get; set; }
+
+//public virtual DbSet<MatchGame> MatchGames { get; set; }
+
+
+//public virtual DbSet<Tournament> Tournaments { get; set; }
 
 //    public virtual DbSet<TourneyMatch> TourneyMatches { get; set; }
 
